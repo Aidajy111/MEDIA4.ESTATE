@@ -1,0 +1,17 @@
+.text-main-block .text-main-block__title {
+    letter-spacing: -0.045em;
+}
+section {
+    margin-bottom: 60px;
+}
+@media (max-width:1200px) {
+    .video-wrap.reverse {
+        flex-direction: column !important;
+    }
+    .section-addons .trnsparent-btn{
+        margin: 20px 0 0 0;
+    }
+}
+@media (max-width:400px) {
+
+}

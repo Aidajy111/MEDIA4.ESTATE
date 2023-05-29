@@ -1,0 +1,119 @@
+.footer {
+    position: relative;
+    background: #333333;
+    width: 100%;
+    padding: 60px 0;
+    overflow: hidden;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        .contact-end-address {
+            display: flex;
+            gap: 40px;
+        }
+    }
+}
+.footer-title-style {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: -0.025em;
+    text-transform: capitalize;
+    color: #FFF9EE;
+    margin-bottom: 20px;
+    display: block;
+}
+.contacts-wrapper{
+    width: 165px;
+}
+.footer-small-text-style {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.025em;
+    color: #B9B9B9;
+    display: flex;
+    gap: 12px;
+    transition: 0.3s;
+    img {
+        width: 24px;
+        height: 24px;
+        transition: 0.3s;
+    }
+    &:hover img {
+        opacity: 0.7;
+    }
+}
+.footer-small-text-style:hover {
+    opacity: 0.7;
+}
+.f-phone{
+    margin-bottom: 10px;
+}
+.sochial-messenger-wrapper {
+    margin-top: 20px;
+    gap: 13px;
+    display: flex;
+
+    a {
+        display: block;
+        img {
+            width: 24px;
+            height: 24px;
+            transition: 0.3s;
+        }
+    }
+    a:hover img{
+        opacity: 0.7;
+    }
+}
+.logos-wrapper {
+    display: flex;
+    flex-direction: column;
+    .logos {
+        margin-bottom: 20px;
+    }
+    .small-text {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+// circle
+.f-circle {
+    position: absolute;
+    background: transparent;
+    border: 1px solid #7F7F7F;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    right: -28px;
+    bottom: -30px;
+}
+.f-circle:first-child {
+    width: 40px;
+    height: 40px;
+    bottom: 74px;
+    right: -19px;
+}
+.f-circle.last{
+    width: 20px;
+    height: 20px;
+    bottom: 27px;
+    right: 95px;
+}
+@media (max-width:1200px) {
+    .logos-wrapper .logos {
+        width: 120px;
+    }
+    .footer {
+        .container {
+            flex-direction: column;
+            gap: 40px;
+        }
+    }
+}
