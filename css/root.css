@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'Krona One'; 
+	src: local('Krona One'),
+		url('../fonts/KronaOne-Regular.ttf'); 
+}
+@font-face {
+	font-family: 'Jura'; 
+	src: local('Jura'),
+		url('../fonts/Jura-VariableFont_wght.ttf'); 
+}
+@font-face {
+	font-family: 'KoHo-regular'; 
+	src: local('KoHo-regular'),
+		url('../fonts/KoHo-Regular.ttf'); 
+}
+@font-face {
+	font-family: 'Inter'; 
+	src: local('Inter'),
+		url('../fonts/Inter-VariableFont_slnt\,wght.ttf'); 
+}
+/* font family */
+
+/* global color */
+:root {
+	--main-white: #EBEBEB;
+	--title-dark--color: #222222;
+	--desc-dark-color: #353535;
+	--green-color: #45C569;
+}
+/* color */
